@@ -1,10 +1,9 @@
 // Libraries
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom";
-// Components
-import Diteils from "./Diteils";
+import { Link } from "react-router-dom";
 // Css
 import styles from "./ContentBlock.module.scss";
+import Diteils from "./Diteils";
 
 const ContentBlock = ({ people }) => {
   return (
@@ -26,7 +25,7 @@ const ContentBlock = ({ people }) => {
               <div className={styles.part__one}>компания:&nbsp;&nbsp;</div>
               <div>{company.name}</div>
             </div>
-            <Link to="/diteils" className={styles.diteils}>
+            <Link to="/diteils" className={styles.diteils} people={people}>
               Подробнее
             </Link>
           </div>

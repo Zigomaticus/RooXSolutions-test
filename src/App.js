@@ -1,11 +1,13 @@
 // Libraries
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { Route, Routes } from "react-router-dom";
 // Components
 import SortBlock from "./components/sortBlock/SortBlock";
 import ContentBlock from "./components/contentBlock/ContentBlock";
 // Css
 import "./App.scss";
+import Diteils from "./components/contentBlock/Diteils";
 
 function App() {
   const [people, setPeople] = useState([]);
@@ -36,7 +38,10 @@ function App() {
   return (
     <div className="App">
       <SortBlock sortCity={sortCity} sortCompany={sortCompany} />
-      <ContentBlock people={people} />
+      <Routes>
+        <Route path="/" element={<ContentBlock people={people} />} />
+        <Route path="/diteils" element={<Diteils />} />
+      </Routes>
     </div>
   );
 }

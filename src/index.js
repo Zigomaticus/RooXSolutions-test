@@ -4,14 +4,12 @@ import "./index.scss";
 import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Diteils from "./components/contentBlock/Diteils";
+import SortBlock from "./components/sortBlock/SortBlock";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/diteils" element={<Diteils />} />
-      </Routes>
+      <App />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
