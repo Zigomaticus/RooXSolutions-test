@@ -2,7 +2,7 @@
   margin: 19px 0 0 34px;
 
   .title {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 16px;
   }
@@ -31,6 +31,13 @@
           color: #a3a3a3;
         }
       }
+    }
+
+    a {
+      font-size: 12px;
+      line-height: 14px;
+      color: #4b51ef;
+      text-decoration: none;
     }
   }
 }

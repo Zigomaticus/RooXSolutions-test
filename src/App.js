@@ -7,7 +7,7 @@ import SortBlock from "./components/sortBlock/SortBlock";
 import ContentBlock from "./components/contentBlock/ContentBlock";
 // Css
 import "./App.scss";
-import Diteils from "./components/contentBlock/Diteils";
+import ProfileBlock from "./components/profileBlock/ProfileBlock";
 
 function App() {
   const [people, setPeople] = useState([]);
@@ -40,7 +40,7 @@ function App() {
       <SortBlock sortCity={sortCity} sortCompany={sortCompany} />
       <Routes>
         <Route path="/" element={<ContentBlock people={people} />} />
-        <Route path="/diteils" element={<Diteils />} />
+        <Route path="/profile" element={<ProfileBlock people={people} />} />
       </Routes>
     </div>
   );

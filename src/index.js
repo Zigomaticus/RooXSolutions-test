@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.scss";
 import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Diteils from "./components/contentBlock/Diteils";
+import ProfileBlock from "./components/profileBlock/ProfileBlock";
 import SortBlock from "./components/sortBlock/SortBlock";
 
 ReactDOM.render(
