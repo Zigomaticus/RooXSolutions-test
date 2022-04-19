@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RooXSolutions-test/static/css/main.31f60dc8.css",
+    "main.js": "/RooXSolutions-test/static/js/main.abeda8ee.js",
+    "index.html": "/RooXSolutions-test/index.html",
+    "main.31f60dc8.css.map": "/RooXSolutions-test/static/css/main.31f60dc8.css.map",
+    "main.abeda8ee.js.map": "/RooXSolutions-test/static/js/main.abeda8ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31f60dc8.css",
+    "static/js/main.abeda8ee.js"
+  ]
+}
